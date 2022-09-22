@@ -431,12 +431,12 @@ hr.blues{
   }
 
 }
-/* @media screen and (max-width: 65rem){
+@media screen and (max-width: 65rem){
   Navig
   .nav-item{
     font-size: 1rem;
   }
-
+/* 
   Classes
   h2{
     font-size: 1.7rem;
@@ -458,9 +458,9 @@ hr.blues{
   }
   .titcls, .abtcls, .rescls, .uticls, .whocls, .concls{
     width: 90%;
-  }
+  } */
 
-} */
+}
 
 /* .titcls{
   background-image: url(../images/img1.png) no-repeat center;
