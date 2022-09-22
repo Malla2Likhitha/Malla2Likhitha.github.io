@@ -432,6 +432,24 @@ hr.blues{
   }
 
 }
+@media screen and (max-width: 65rem){
+  /* Navig */
+  .nav-item{
+    font-size: 1rem;
+  }
+
+  /* Classes */
+  .titcls h1{
+    font-size: 4rem;
+  }
+  .titcls h2{
+    font-size: 2.5rem;
+  }
+  .abtcls p{
+    font-size: 1rem;
+  }
+
+}
 
 /* .titcls{
   background-image: url(../images/img1.png) no-repeat center;
