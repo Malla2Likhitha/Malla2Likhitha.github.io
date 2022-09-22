@@ -338,7 +338,7 @@ h4{
   border-radius: 0;
 }
 
-@media screen and (max-width: 75rem){
+@media screen and (max-width: 600px){
   .timeline::after{
   left: 1rem;
   }
@@ -405,7 +405,7 @@ hr.blues{
   color: white;
 }
 
-@media screen and (max-width: 75rem){
+@media screen and (max-width: 600px){
   /* Navig */
   .nav-item{
     margin: auto;
@@ -431,7 +431,7 @@ hr.blues{
   }
 
 }
-@media screen and (max-width: 36rem){
+@media screen and (max-width: 480px){
   Navig
   .nav-item{
     font-size: 1rem;
@@ -441,7 +441,7 @@ hr.blues{
   h2{
     font-size: 1.7rem;
     color: green;
-  }/* 
+  }/*
   p{
     font-size: 1rem;
   }
