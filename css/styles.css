@@ -1,0 +1,445 @@
+/* Navigation */
+
+.logo img{
+  height: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.navbar{
+  background-color: #010724;
+}
+.nav-item{
+  font-size: 1.2rem;
+  color: white;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+.itemend{
+  margin-right: 3rem;
+}
+.nav-item:hover{
+  font-size: 1.5rem;
+}
+
+/* .navbar{
+  background-color: #000c40;
+} */
+
+
+
+/* Body */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+p{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+h1{
+  font-family: 'Gentium Book Basic', serif;
+}
+h2{
+  font-size: 2.7rem;
+  font-family: 'Merriweather', serif;
+}
+
+/* Id-wise */
+#about{
+  height: auto;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+#resp{
+  background-image: linear-gradient(to right, #011469 , black);
+  color: #000c40;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4.5rem;
+}
+#utility{
+  height: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+#who{
+  background-image: linear-gradient(to right, #011469 , black);
+  color: #011469;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+#contacts{
+  background-color: #010724;
+  color: white;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Class-wise */
+
+.titcls, .abtcls, .rescls, .uticls, .whocls, .concls{
+  text-align: center;
+}
+.titcls{
+  width: 80%;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  color: white;
+  font-family: 'Gentium Book Basic', serif;
+}
+.titcls h1{
+  font-size: 6rem;
+}
+.titcls h2{
+  font-size: 4rem;
+}
+
+.abtcls{
+  width: 80%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.abtcls h2{
+  color: #000c40;
+}
+.last_logo{
+  height: 6rem;
+}
+.concls .copyrights{
+  margin-top: 2rem;
+}
+.concls .co{
+  font-weight: lighter;
+  font-size: 1rem;
+}
+.concls .rightl{
+  padding-top: 1.5rem;
+}
+.logos{
+  padding: 0.5rem;
+  height: 3rem;
+}
+.footer-link{
+  text-decoration: none;
+}
+
+
+.rescls{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 80%;
+}
+.rescls h2{
+  color: white;
+}
+
+.uticls{
+  width: 80%;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.uticls .row{
+  text-align: center;
+  padding: 1rem;
+}
+.uticls .col-md-6{
+  padding: 0.3rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.image{
+  height: 7rem;
+  width: 7rem;
+}
+
+.whocls{
+  width: 80%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.whocls h2{
+  color: white;
+}
+.whocls hr{
+   margin-bottom: 3rem;
+}
+
+.concls{
+  padding-left: 5rem;
+  padding-left: 5rem;
+  width: 80%;
+}
+
+
+.apply-btn{
+  margin: 1rem;
+}
+
+.apply-btn{
+  margin-top: 3rem;
+  background-color: #000c40;
+}
+
+/* Cards */
+.card{
+  height: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.col-lg-3{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.card-body{
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.card:hover{
+  background-color: #e3e8ff;
+  transform: scaleY(1.1);
+}
+.card1{
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-image: url(../images/publi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card2{
+  background-color: rgba(240, 240, 255, 0.8);
+  background-blend-mode: lighten;
+  background-image: url(../images/parti.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card3{
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-image: url(../images/soc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card4{
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-image: url(../images/organize.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Backgrounds */
+.bg1{
+  background-image: url(../images/img2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 5, 0.8);
+  background-blend-mode: soft-light;
+}
+
+
+/* Timeline */
+*{
+  box-sizing: border-box;
+}
+.timeline{
+  position: relative;
+  max-width: 70rem;
+
+}
+.timeline::after{
+  content: '';
+  position: absolute;
+  width: 0.3rem;
+  background-color: grey;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.tl_container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.tl_container::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  right: -1rem;
+  background-color: #000c40;
+  border: 0.5rem solid white;
+  top: 2rem;
+  border-radius: 100%;
+  z-index: 1;
+}
+.right::after {
+  left: -1rem;
+}
+
+.left{
+  left: 0;
+  padding-right: 3rem;
+}
+.right{
+  left: 50%;
+  padding-left: 3rem;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 2rem;
+  width: 0;
+  z-index: 1;
+  right: 2rem;
+  border: medium solid #e3e8ff;
+  border-width: 1rem 0 1rem 1rem;
+  border-color: transparent transparent transparent #e3e8ff;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 2rem;
+  width: 0;
+  z-index: 1;
+  left: 2rem;
+  border: medium solid #e3e8ff;
+  border-width: 1rem 1rem 1rem 0;
+  border-color: transparent #e3e8ff transparent transparent;
+}
+
+.left .content{
+  padding: 1.5rem 2rem;
+  background-image: radial-gradient( white , #e3e8ff);
+  position: relative;
+  border-radius: 0;
+}
+.right .content{
+  padding: 1.5rem 2rem;
+  background-image: radial-gradient( white , #e3e8ff);
+  position: relative;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 75rem){
+  .timeline::after{
+  left: 1rem;
+  }
+
+  .tl_container{
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+
+  .tl_container::before{
+  left: 2.2rem;
+  border: medium solid #e3e8ff;
+  border-width: 1rem 1rem 1rem 0;
+  border-color: transparent #e3e8ff transparent transparent;
+  }
+
+  .left::after, .right::after {
+  left: 0;
+  }
+
+  .right {
+  left: 0%;
+  }
+  .tl_container .content{
+    border-radius: 0;
+  }
+}
+
+hr.whiten{
+  border-top: 1px solid white;
+}
+hr.blues{
+  border-top: 1px solid #000c40;
+}
+
+/* Buttons */
+.btn{
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 0.8rem;
+  font-family: Georgia;
+  color: #0303a8;
+  font-size: 1.3rem;
+  background: white;
+  padding: auto;
+  border: solid white 2px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background: #0303a8;
+  border-radius: 0;
+  background-image: -webkit-linear-gradient(top, #000c40, black);
+  background-image: -moz-linear-gradient(top, #000c40, black);
+  background-image: -ms-linear-gradient(top, #000c40, black);
+  background-image: -o-linear-gradient(top, #000c40, black);
+  background-image: linear-gradient(to bottom, #000c40, black);
+  text-decoration: none;
+  border: solid #011469 2px;
+  color: white;
+}
+@media screen and (max-width: 75rem) {
+  .btn{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 75rem){
+  /* Navig */
+  .nav-item{
+    margin: auto;
+    text-align: center;
+  }
+
+  /* Classes */
+  .titcls{
+    width: 80%;
+    text-align: center;
+  }
+  .titcls h1{
+    font-size: 4.5rem;
+  }
+  .titcls h2{
+    font-size: 3rem;
+  }
+  .abtcls p{
+    font-size: 1.2rem;
+  }
+
+}
+
+/* .titcls{
+  background-image: url(../images/img1.png) no-repeat center;
+  height: 20rem;
+  background-size: cover;}
+  .titcls::before{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .titcls::after{
+    background-color: rgba(0, 0, 0, 0.5);
+  } */
