@@ -435,18 +435,18 @@ hr.blues{
 @media screen and (max-width: 65rem){
   /* Navig */
   .nav-item{
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   /* Classes */
   .titcls h1{
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .titcls h2{
-    font-size: 2.5rem;
+    font-size: 1.25rem;
   }
   .abtcls p{
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
 }
