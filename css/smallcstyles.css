@@ -1,0 +1,31 @@
+/* Navig */
+.nav-item{
+  font-size: 1rem;
+}
+
+/* Body */
+h2{
+  font-size: 2.4rem;
+}
+p{
+  font-size: 1rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+h5{
+  font-size: 1.25rem;
+}
+h6{
+  font-size: 0.5rem;
+}
+.bodycls{
+  width: 90%;
+}
+.logos{
+  height: 1.75rem;
+  margin: 1rem 0.25rem 2.25rem;
+}
+.customers{
+  font-size: 1rem;
+}
