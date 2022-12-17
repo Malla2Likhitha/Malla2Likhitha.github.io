@@ -6,7 +6,7 @@
 /* Body */
 h1{
   font-size: 2.24rem;
-  color: red;
+  color: black;
 }
 h2{
   font-size: 1.25rem;
@@ -20,4 +20,8 @@ h3{
 .bodycls{
   width: 100%;
   margin: auto;
+}
+.logos{
+  height: 1.75rem;
+  margin: 1rem 0.25rem 2.25rem;
 }
