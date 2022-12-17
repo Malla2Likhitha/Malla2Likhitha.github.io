@@ -42,12 +42,13 @@
 
 .titcls{
   text-align: center;
-  padding: 4rem;
+  padding: 4rem 0;
   color: white;
   font-family: Merriweather;
 }
 .titcls h1{
   font-size: 6.5rem;
+  color: red;
 }
 .titcls h2{
   font-size: 4.5rem;
