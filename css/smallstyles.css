@@ -5,17 +5,17 @@
 
 /* Body */
 h1{
-  font-size: 2.24rem;
-  color: black;
+  font-size: 1.24rem;
+  color: red;
 }
 h2{
-  font-size: 1.25rem;
+  font-size: 1.05rem;
 }
 p{
-  font-size: 0.55rem;
+  font-size: 0.85rem;
 }
 h3{
-  font-size: 1.15rem;
+  font-size: 0.95rem;
 }
 .bodycls{
   width: 100%;
@@ -24,4 +24,7 @@ h3{
 .logos{
   height: 1.25rem;
   margin: 1rem 0.25rem 2.25rem;
+}
+h6{
+  font-size: 0.5rem;
 }
