@@ -31,6 +31,12 @@
   font-size: 2rem;
   background-color: #010724;
 }
+#customers h2{
+  text-align: center;
+  font-size: 3rem;
+  font-family: Merriweather;
+  margin-bottom: 0.75rem;
+}
 
 .infocls{
   text-align: center;
@@ -62,12 +68,6 @@
   width: 90%;
   padding: 1rem 2rem 2rem;
   font-family: Monsterrat;
-}
-.customers h2{
-  text-align: center;
-  font-size: 3rem;
-  font-family: Merriweather;
-  margin-bottom: 0.75rem;
 }
 .heading{
   background-color: rgba(20, 60, 150, 0.5);
