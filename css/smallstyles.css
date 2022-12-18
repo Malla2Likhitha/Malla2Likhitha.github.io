@@ -6,7 +6,7 @@
 /* Body */
 .titcls h1{
   font-size: 1rem;
-  color: black;
+  color: red;
 }
 .titcls h2{
   font-size: 1rem;
@@ -17,10 +17,10 @@
 .titcls h3{
   font-size: 0.95rem;
 }
-.abtcls{
+.abtcls, .concls{
   width: 100%;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .logos{
   height: 1.25rem;
@@ -36,8 +36,8 @@ h6{
   font-size: 0.95rem;
 }
 #about{
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .btn{
   font-size: 1rem;
