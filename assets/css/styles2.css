@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+
+}
+.timeline-section{
+	background-color: #24292d;
+	min-height: 100vh;
+	padding: 100px 15px;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #2f363e;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #3e77bc;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-date{
+	font-size: 18px;
+	color: #3e77bc;
+	margin:6px 0 15px;
+}
+.timeline-content{
+  background-color: #2f363e;
+	padding: 30px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #c8c8c8;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/* responsive */
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+  .c{
+    display: inline-block;
+    margin-right: 5rem;
+  }
+  .i{
+    height: 12rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+}
+.timeline-section{
+  background-image: linear-gradient(to bottom, black, #262626);
+}
+
+
+
+/* .i1{
+  height: 10rem;
+}
+.c{
+  display: inline-block;
+} */
+.timeline-content{
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-repeat: space;
+  background-size: cover;
+  position: relative;
+}
+.i{
+  height: 12rem;
+  z-index: 0;
+}
+.c{
+  display: inline-block;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.i1{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/CS%20Colloquia.png);
+}
+.i2{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/mechanical%20colloquia.png);
+}
+.i3{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/Counterstrike.png);
+}
+.i4{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/call%20of%20duty.png);
+}
+.i5{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/archimedes%20dunk.png);
+}
+.i6{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/quizzare.png);
+}
+.i7{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/quizzare.png);
+  /* Kickoff */
+}
+.i8{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/Code%20Hasten.png);
+}
+.i9{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/Auction%20Wars.png);
+}
+.i10{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/Robowars.png);
+}
+.i11{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/electrical%20colloqui.png);
+}
+.i12{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/civil%20colloquia.png);
+}
+.i13{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/Blind%20coding.png);
+}
+.i14{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/224/473/99/vehicle-rocket-soyuz-roscosmos-state-corporation-wallpaper-preview.jpg);
+}
+.i15{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/maths%20olympiad.png);
+}
+.i16{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/truss%20the%20frame.png);
+}
+.i17{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/school%20champ.png);
+}
+.i18{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/mazesolver.jpg);
+}
+.i19{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/computer%20cypher.png);
+}
+.i20{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/memory%20challenge.png);
+}
+.i21{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/roborace.jpg);
+}
+.i22{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/quizzare.png);
+  /* Trekkon */
+}
+.i23{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/Valorant.png);
+}
+.i24{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/quizzare.png);
+  /* Freefire */
+}
+.i25{
+  background-image: url(https://www.wissenaire.org/assets/competition/img/quizzare.png);
+  /* Startup */
+}
