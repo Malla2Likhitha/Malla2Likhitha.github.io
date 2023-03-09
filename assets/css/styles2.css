@@ -38,7 +38,7 @@ body{
 }
 .timeline-item:nth-child(odd){
     padding-right: calc(50% + 30px);
-	text-align: right;
+	text-align: left;
 }
 .timeline-item:nth-child(even){
     padding-left: calc(50% + 30px);
@@ -135,6 +135,9 @@ body{
 .i{
   height: 12rem;
   z-index: 0;
+	position: absolute;
+	right: 0.5rem;
+	top: 0.5rem;
 }
 .c{
   display: inline-block;
@@ -224,4 +227,7 @@ body{
 }
 .eve{
 	font-weight: 500;
+}
+.cs{
+	font-size: 16px;
 }
