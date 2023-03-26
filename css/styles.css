@@ -1,3 +1,21 @@
+.navbar{
+  background-color: #160075;
+}
+.offcanvas{
+  background-color: #160075;
+}
+.dropdown-menu{
+  background-color: #2f13ab;
+}
+.offcanvas-title, .dropdown-item{
+  color: white;
+}
+.dropdown-divider{
+  color: white;
+}
+.navbar-brand{
+  padding-left: 1rem;
+}
 .bg{
   width: 100%;
   height: 9rem;
@@ -14,7 +32,7 @@
   z-index: +1;
 }
 .para{
-  padding-top: 20rem;
+  padding-top: 18rem;
   width: 80%;
   color: white;
 }
@@ -25,13 +43,24 @@
   width: 80%;
 }
 .para2{
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 .pro{
   background-image: linear-gradient(to right, #64008f , #160075);
 }
 p{
   margin: 0;
+}
+.carousel-item-active{
+  margin: auto;
+  width: 60%;
+  height: 30rem;
+}
+.carousel-item p{
+  margin: auto;
+  width: 70%;
+  color: white;
+  padding: 5rem;
 }
 .contact{
   color: white;
