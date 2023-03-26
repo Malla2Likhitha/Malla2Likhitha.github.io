@@ -14,7 +14,7 @@
   z-index: +1;
 }
 .para{
-  padding-top: 14rem;
+  padding-top: 12rem;
   margin: auto;
   text-align: center;
   width: 80%;
@@ -23,10 +23,26 @@
   margin: auto;
   text-align: center;
   width: 80%;
+  padding-bottom: 1rem;
+}
+.para2{
   padding-bottom: 2rem;
+}
+.carousel-item-active{
+  width: 80%;
+  height: 16rem;
+  margin: auto;
+}
+.carousel-item p{
+  color: white;
+  padding: 2rem;
+  text-align: center;
 }
 .contact p{
   margin: auto;
   text-align: center;
   width: 80%;
+}
+p{
+  font-size: 0.75rem;
 }
