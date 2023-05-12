@@ -16,7 +16,7 @@
 }
 
 .card-cell-info h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .card-cell-thumbnail {
@@ -28,20 +28,20 @@
 }
 
 .card-cell-text h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .card-cell-text h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
 .card-cell-info h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .but{
-  font-size: 1rem !important;
+  font-size: 1.5rem !important;
 }
 
 .card-cell-button {
